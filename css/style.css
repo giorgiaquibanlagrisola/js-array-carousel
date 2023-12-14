@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    height: 500px;
+    width: 900px;
+    position: relative;
+    background-color: blue;
+
+}
+
+.prev-button {
+
+}
+
+.next-button {
+    
+}
+
+.item {
+    height: 100%;
+    display: none;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item.active {
+    display: block;
+}

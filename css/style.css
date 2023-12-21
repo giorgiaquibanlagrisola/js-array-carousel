@@ -26,10 +26,31 @@ html {
 }
 
 .prev-button {
-
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    text-align: center;
 }
 
 .next-button {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    text-align: center;
     
 }
 
